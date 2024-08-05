@@ -1,0 +1,90 @@
+body {
+    background-color: #ffffff; /* White background */
+    font-style: italic;; /* Italic fonts */
+    color: #001f3f; /* Navy blue text */
+    padding-top: 56px;
+}
+
+.navbar {
+    background-color: #948979; /* Navy blue background for navbar */
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff; /* White text for navigation links */
+}
+
+.navbar-light .navbar-brand {
+    color: #ffffff; /* White brand text */
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #ffffff; /* White toggler border */
+}
+
+.card {
+    border: none;
+    border-radius: 5%;
+    background-color: #3C5B6F; /* Light background for cards */
+    color: #ffffff; /* Navy blue text for cards */
+}
+
+.card img {
+    border-radius: 15px;
+}
+
+.carousel-item img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li, label, button, input, textarea {
+    font-style: italic; /* Italicize all standard text elements */
+}
+h1 {
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #3C5B6F; /* Navy blue buttons */
+    border-color: #3C5B6F;
+}
+
+.btn-primary:hover {
+    background-color: #001533; /* Darker navy blue on hover */
+    border-color: #001533;
+}
+
+.about-img {
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image horizontally */
+    border-radius: 50%; /* Apply border radius */
+    height: 300px; /* Increase the height */
+    width: 300px; /* Increase the width */
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.bottom-bar {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+    position: static;
+    margin-top: 20px;
+}
+
+.bottom-bar .address {
+    font-size: 14px;
+    color: #001533;
+}
+
+.bottom-bar .email {
+    font-size: 14px;
+    color: #3C5B6F;
+}
+
+
+

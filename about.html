@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Portfolio of Dilay</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <!-- Navigation Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="#">Portfolio of Dilay</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Content -->
+    <div class="container mt-5">
+
+        <img class="about-img" src="me.jpg" alt="">
+        <br>
+        <h1 style="text-align: center;">About Me</h1>
+        <div style="font-style: italic; font-family: 'Times New Roman', Times, serif; text-align: center;">
+            <p>Hey there, I'm Dilay Çetin, a 20-year-old computer engineering student based in the vibrant city of Istanbul.</p>
+            <p>I've always been drawn to the art of storytelling, and for me, photography is the perfect medium to express my perspective on the world. Whether it's a breathtaking sunset over the Bosphorus or the intricate details of everyday life in the bustling streets of Istanbul, I find inspiration in the moments that often go unnoticed.</p>
+            <p>Join me as I capture moments of beauty and inspiration. Thank you for stopping by and sharing in my passion for photography. Let's embark on this visual journey together!</p>
+        <!-- Add more content about yourself and your work here -->
+        </div>
+    </div>
+
+    <div class="container mt-3 text-center">
+        <button id="button1" style="border: none; background: none;">
+            <img id="image1" src="instagram.png" style="height: 30px; width: 30px; margin-right: 10px;">
+        </button>
+        <button id="button2" style="border: none; background: none;">
+            <img id="image2" src="linkedin.png" style="height: 30px; width: 30px;">
+        </button>
+    </div>
+    <br>
+    <script>
+        document.getElementById("button1").addEventListener("click", function() {
+            window.open("https://www.instagram.com/dilaycetinn/", "_blank");
+        });
+    
+        document.getElementById("button2").addEventListener("click", function() {
+            window.open("https://www.linkedin.com/in/dilay-çetin-67b10a246/", "_blank");
+        });
+    </script><br><br>
+
+
+    <!-- Bottom Bar -->
+    <div class="bottom-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 address">
+                    <p>No: 38, İnönü Street, Beşyol, Küçükçekmece, 34295</p>
+                    <p>Istanbul, Turkey</p>
+                </div>
+                <div class="col-md-6 text-right email">
+                    <p>dilaycetin@stu.aydin.edu.tr</p>
+                </div>
+            </div>
+            <div class="text-center py-3">
+                <p>&copy; 2024 Dilay Çetin. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
